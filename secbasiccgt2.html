@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diet of the Strongest Forest Animals</title>
+  <style>
+    :root{
+      --bg: #0a0f1f;
+      --bg-2: #0c1224;
+      --text: #f5f7ff;
+      --muted: #cfd6f6;
+      --accent-1: #ff6b6b;
+      --accent-2: #4dabf7;
+      --accent-3: #51cf66;
+      --accent-4: #ffd43b;
+      --card: #11172a;
+      --shadow: 0 10px 25px rgba(0,0,0,.35);
+      --radius-xl: 24px;
+    }
+
+    * { box-sizing: border-box; }
+    body{
+      margin:0;
+      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(800px 400px at 0% 0%, var(--accent-1)20%, transparent 70%),
+        radial-gradient(1000px 600px at 100% 0%, var(--accent-2)20%, transparent 70%),
+        radial-gradient(1000px 600px at 50% 120%, var(--accent-3)20%, transparent 70%),
+        linear-gradient(180deg, var(--bg), var(--bg-2));
+      line-height:1.6;
+    }
+
+    .container{ width:min(1100px, 92%); margin:auto; }
+
+    header{
+      text-align:center; padding:40px 20px;
+    }
+    header h1{ font-size:2.6rem; margin-bottom:10px; color:var(--accent-4); }
+    header p{ color:var(--muted); max-width:700px; margin:auto; font-size:1.1rem; }
+
+    .grid{ display:grid; gap:20px; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); margin:40px 0; }
+
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+      border-radius:var(--radius-xl);
+      overflow:hidden; box-shadow:var(--shadow);
+      transition:transform .3s ease;
+    }
+    .card:hover{ transform:translateY(-6px) scale(1.02); }
+
+    .card img{ width:100%; height:200px; object-fit:cover; display:block; }
+    .card-content{ padding:18px; }
+    .card-content h3{ margin:8px 0; font-size:1.4rem; color:var(--accent-2); }
+    .latin{ font-size:.9rem; font-style:italic; color:var(--muted); }
+    .diet{ margin-top:10px; font-size:.95rem; color:#e9ecff; }
+    .diet ul{ padding-left:20px; margin:8px 0; }
+    .diet li{ margin:4px 0; }
+
+    footer{ text-align:center; padding:30px; font-size:.9rem; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Diet of the Strongest Forest Animals</h1>
+    <p>Discover what fuels the mightiest creatures of the forest. From herbivores to apex predators, here’s their menu in the wild.</p>
+  </header>
+
+  <main class="container">
+    <section class="grid">
+      <div class="card">
+        <img src="af el.jpg" alt="African Forest Elephant">
+        <div class="card-content">
+          <h3>African Forest Elephant</h3>
+          <div class="latin"><em>Loxodonta cyclotis</em></div>
+          <div class="diet">
+            <strong>Diet:</strong>
+            <ul>
+              <li>Leaves</li>
+              <li>Fruits</li>
+              <li>Bark & roots</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="grizzly-bears.png" alt="Grizzly Bear">
+        <div class="card-content">
+          <h3>Grizzly Bear</h3>
+          <div class="latin"><em>Ursus arctos</em></div>
+          <div class="diet">
+            <strong>Diet:</strong>
+            <ul>
+              <li>Fish (salmon)</li>
+              <li>Berries</li>
+              <li>Roots & plants</li>
+              <li>Occasional mammals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg" alt="Tiger">
+        <div class="card-content">
+          <h3>Tiger</h3>
+          <div class="latin"><em>Panthera tigris</em></div>
+          <div class="diet">
+            <strong>Diet:</strong>
+            <ul>
+              <li>Deer</li>
+              <li>Wild boar</li>
+              <li>Buffalo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="mountain-gorilla-Virunga-National-Park-Democratic-Republic.webp" alt="Gorilla">
+        <div class="card-content">
+          <h3>Gorilla</h3>
+          <div class="latin"><em>Gorilla spp.</em></div>
+          <div class="diet">
+            <strong>Diet:</strong>
+            <ul>
+              <li>Leaves</li>
+              <li>Fruits</li>
+              <li>Bamboo shoots</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Standing_jaguar.jpg" alt="Jaguar">
+        <div class="card-content">
+          <h3>Jaguar</h3>
+          <div class="latin"><em>Panthera onca</em></div>
+          <div class="diet">
+            <strong>Diet:</strong>
+            <ul>
+              <li>Capybara</li>
+              <li>Caiman</li>
+              <li>Turtles</li>
+              <li>Deer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="00-5_Fascinating_Facts_About_the_Leopard-BW-header1200px.jpg" alt="Leopard">
+        <div class="card-content">
+          <h3>Leopard</h3>
+          <div class="latin"><em>Panthera pardus</em></div>
+          <div class="diet">
+            <strong>Diet:</strong>
+            <ul>
+              <li>Antelope</li>
+              <li>Monkeys</li>
+              <li>Birds</li>
+              <li>Rodents</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="kesuma-the-sumatran-orangutan.jpeg" alt="Orangutan">
+        <div class="card-content">
+          <h3>Orangutan</h3>
+          <div class="latin"><em>Pongo spp.</em></div>
+          <div class="diet">
+            <strong>Diet:</strong>
+            <ul>
+              <li>Fruits (figs, durians)</li>
+              <li>Leaves</li>
+              <li>Bark</li>
+              <li>Insects occasionally</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="wildboar.webp" alt="Wild Boar">
+        <div class="card-content">
+          <h3>Wild Boar</h3>
+          <div class="latin"><em>Sus scrofa</em></div>
+          <div class="diet">
+            <strong>Diet:</strong>
+            <ul>
+              <li>Roots</li>
+              <li>Fruits</li>
+              <li>Insects</li>
+              <li>Small animals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="moose.webp" alt="Moose">
+        <div class="card-content">
+          <h3>Moose</h3>
+          <div class="latin"><em>Alces alces</em></div>
+          <div class="diet">
+            <strong>Diet:</strong>
+            <ul>
+              <li>Aquatic plants</li>
+              <li>Leaves</li>
+              <li>Shrubs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="ga.jfif" alt="Green Anaconda">
+        <div class="card-content">
+          <h3>Green Anaconda</h3>
+          <div class="latin"><em>Eunectes murinus</em></div>
+          <div class="diet">
+            <strong>Diet:</strong>
+            <ul>
+              <li>Fish</li>
+              <li>Birds</li>
+              <li>Mammals (capybara, deer)</li>
+              <li>Caiman</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Forest Power · HTML & CSS only showcase · Page 2
+  </footer>
+</body>
+</html>
