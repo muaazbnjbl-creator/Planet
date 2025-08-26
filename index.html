@@ -1,178 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Top 10 Strongest Forest Animals</title>
-  <style>
-    :root{
-      --bg: #0a0f1f;
-      --bg-2: #0c1224;
-      --text: #f5f7ff;
-      --muted: #cfd6f6;
-      --accent-1: #ff6b6b; 
-      --accent-2: #4dabf7; 
-      --accent-3: #51cf66; 
-      --accent-4: #ffd43b; 
-      --card: #11172a;
-      --chip: #1b2140;
-      --shadow: 0 10px 25px rgba(0,0,0,.35);
-      --radius-xl: 24px;
-    }
-
-    * { box-sizing: border-box; }
-    body{
-      margin:0;
-      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
-      color: var(--text);
-      background:
-        radial-gradient(800px 400px at 0% 0%, var(--accent-1)20%, transparent 70%),
-        radial-gradient(1000px 600px at 100% 0%, var(--accent-2)20%, transparent 70%),
-        radial-gradient(1000px 600px at 50% 120%, var(--accent-3)20%, transparent 70%),
-        linear-gradient(180deg, var(--bg), var(--bg-2));
-      line-height:1.6;
-    }
-
-    .container{ width:min(1100px, 92%); margin:auto; }
-
-    header{
-      text-align:center; padding:40px 20px;
-    }
-    header h1{ font-size:2.8rem; margin-bottom:10px; color:var(--accent-4); }
-    header p{ color:var(--muted); max-width:700px; margin:auto; font-size:1.1rem; }
-
-    .grid{ display:grid; gap:20px; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); margin:40px 0; }
-
-    .card{
-      background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
-      border-radius:var(--radius-xl);
-      overflow:hidden; box-shadow:var(--shadow);
-      transition:transform .3s ease;
-    }
-    .card:hover{ transform:translateY(-6px) scale(1.02); }
-
-    .card img{ width:100%; height:200px; object-fit:cover; display:block; }
-    .card-content{ padding:18px; }
-    .card-content h3{ margin:8px 0; font-size:1.4rem; color:var(--accent-2); }
-    .latin{ font-size:.9rem; font-style:italic; color:var(--muted); }
-    .desc{ margin-top:8px; font-size:.95rem; color:#e9ecff; }
-    .facts{ margin-top:6px; font-size:.85rem; color:var(--muted); }
-
-    footer{ text-align:center; padding:30px; font-size:.9rem; color:var(--muted); }
-  </style>
+    <meta charset="UTF-8">
+    <title>Space & Solar System</title>
+    <link rel="stylesheet" href="all.css">
 </head>
-<body>
-  <header>
-    <h1>Top 10 Strongest Forest Animals</h1>
-    <p>A vibrant showcase of the mightiest creatures of the forest, ranked by their strength, power, and dominance.</p>
-  </header>
+<body class="home">
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="planets.html">Planets</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
 
-  <main class="container">
-    <section class="grid">
-      <div class="card">
-        <img src="af el.jpg" alt="African Forest Elephant">
-        <div class="card-content">
-          <h3>African Forest Elephant</h3>
-          <div class="latin"><em>Loxodonta cyclotis</em></div>
-          <p class="desc">Immense pulling and pushing power, capable of moving trees and shaping habitats.</p>
-          <p class="facts">Fun fact: Smaller tusks help navigate dense jungle paths.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="grizzly-bears.png" alt="Grizzly Bear">
-        <div class="card-content">
-          <h3>Grizzly Bear</h3>
-          <div class="latin"><em>Ursus arctos</em></div>
-          <p class="desc">Massive muscles and forelimbs, fearsome striking power.</p>
-          <p class="facts">Fun fact: Can sprint up to 56 km/h.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg" alt="Tiger">
-        <div class="card-content">
-          <h3>Tiger</h3>
-          <div class="latin"><em>Panthera tigris</em></div>
-          <p class="desc">Explosive legs and massive neck muscles for ambushing prey.</p>
-          <p class="facts">Fun fact: Can leap up to 10 meters in one bound.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="mountain-gorilla-Virunga-National-Park-Democratic-Republic.webp" alt="Gorilla">
-        <div class="card-content">
-          <h3>Gorilla</h3>
-          <div class="latin"><em>Gorilla spp.</em></div>
-          <p class="desc">Formidable lifting and grappling ability among primates.</p>
-          <p class="facts">Fun fact: Silverbacks can eat thorny plants easily.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="Standing_jaguar.jpg" alt="Jaguar">
-        <div class="card-content">
-          <h3>Jaguar</h3>
-          <div class="latin"><em>Panthera onca</em></div>
-          <p class="desc">The rainforest’s bite‑force champion, able to puncture turtle shells.</p>
-          <p class="facts">Fun fact: Excellent swimmers and river hunters.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="00-5_Fascinating_Facts_About_the_Leopard-BW-header1200px.jpg" alt="Leopard">
-        <div class="card-content">
-          <h3>Leopard</h3>
-          <div class="latin"><em>Panthera pardus</em></div>
-          <p class="desc">Drag prey heavier than themselves up trees.</p>
-          <p class="facts">Fun fact: Masters of stealth in woodland.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="images.jfif" alt="Orangutan">
-        <div class="card-content">
-          <h3>Orangutan</h3>
-          <div class="latin"><em>Pongo spp.</em></div>
-          <p class="desc">Strong arms perfect for moving through the canopy.</p>
-          <p class="facts">Fun fact: Arm span can exceed 2 meters.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="wildboar.webp" alt="Wild Boar">
-        <div class="card-content">
-          <h3>Wild Boar</h3>
-          <div class="latin"><em>Sus scrofa</em></div>
-          <p class="desc">Powerful neck and tusks, resilient in fights.</p>
-          <p class="facts">Fun fact: Their rooting helps regenerate forests.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="moose.webp" alt="Moose">
-        <div class="card-content">
-          <h3>Moose</h3>
-          <div class="latin"><em>Alces alces</em></div>
-          <p class="desc">Deliver bone‑shattering kicks and plow through brush.</p>
-          <p class="facts">Fun fact: Moose are excellent swimmers.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="ga.jfif" alt="Green Anaconda">
-        <div class="card-content">
-          <h3>Green Anaconda</h3>
-          <div class="latin"><em>Eunectes murinus</em></div>
-          <p class="desc">Massive muscles deliver relentless constriction.</p>
-          <p class="facts">Fun fact: Among the heaviest snakes ever recorded.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    © 2025 Forest Power · HTML & CSS only showcase
-  </footer>
+    <header>
+        <h1>Welcome to the Universe</h1>
+        <p>Explore the mysteries of space and the wonders of the Solar System.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Solar_sys8.jpg" 
+             alt="Solar System" class="main-image" height="450" width="450"> 
+    </header>
 </body>
 </html>

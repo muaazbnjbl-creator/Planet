@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Planets of the Solar System</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body class="planets">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="planets.html" class="active">Planets</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>The Solar System Planets</h1>
+        <p>Slide through the planets and discover their unique features.</p>
+    </header>
+
+    <!-- 🌍 Planet Slider -->
+    <section class="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <input type="radio" name="slider" id="slide5">
+        <input type="radio" name="slider" id="slide6">
+        <input type="radio" name="slider" id="slide7">
+        <input type="radio" name="slider" id="slide8">
+
+        <div class="slides">
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg" alt="Mercury">
+                <p><strong>Mercury:</strong> The smallest planet and closest to the Sun.</p>
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" alt="Venus">
+                <p><strong>Venus:</strong> Known as Earth's twin, but extremely hot.</p>
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Earth">
+                <p><strong>Earth:</strong> The only planet known to support life.</p>
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Mars">
+                <p><strong>Mars:</strong> The Red Planet, with the largest volcano in the Solar System.</p>
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Jupiter">
+                <p><strong>Jupiter:</strong> The largest planet, famous for its Great Red Spot.</p>
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg" alt="Saturn">
+                <p><strong>Saturn:</strong> Recognized by its stunning ring system.</p>
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg" alt="Uranus">
+                <p><strong>Uranus:</strong> A blue-green planet that rotates on its side.</p>
+            </div>
+            <div class="slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg" alt="Neptune">
+                <p><strong>Neptune:</strong> The farthest planet, with strong winds and storms.</p>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="navigation">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+            <label for="slide6"></label>
+            <label for="slide7"></label>
+            <label for="slide8"></label>
+        </div>
+    </section>
+</body>
+</html>
